@@ -1,0 +1,10 @@
+﻿description,activity,predecessors,days,position-x,position-y
+Activity 1,A,,6,0,-0.50
+Activity 2,b,,9,-0.50,0.20
+Activity 3,C,"a,b",10,1,-0.05
+Activity 4,D,c,8,2,-0.15
+Activity 5,E,c,5,3,0.15
+Activity 6,F,"e,d",6,4,0
+Activity 7,G,f,5,5,0.25
+Activity 8,H,"f,e,d",8,2,-0.25
+Activity 9,I,"c,g",5,3,0.05
