@@ -1,4 +1,4 @@
-﻿description,activity,predecessors,days,position-x,position-y
+﻿Description,Activity,Predecessors,Days,Position-x,Position-y
 Activity 1,A,,6,0,-0.50
 Activity 2,b,,9,-0.50,0.20
 Activity 3,C,"a,b",10,1,-0.05

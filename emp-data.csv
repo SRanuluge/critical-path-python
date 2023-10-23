@@ -1,0 +1,15 @@
+Description,Activity,Predecessors,Days
+Candidate accepts the offer of employment,A,,5
+Candidate complete and return pre-employment forms,B,A,3
+Team Leader submits internal form Getting started at CCC,C,A,4
+HR Admin Team complete pre-employment checks,D,A,5
+HR Admin Team create employee profile in SAP,E,"A,D",3
+Raise ASM Request,F,"C,E",3
+Create Adaxes (AD) acount for user,G,F,0.06
+IT Service Desk tasks,H,F,1
+IT service desk contact New Employee's Manager for additional Tasks,I,F,1
+Manager approves additional tasks,J,I,2
+IT service desk conduct additional Tasks,K,J,3
+"Organisational Development Team add new user to Success Factors and allocate training, PDP",L,G,2
+CI Team add new user to Process Manager,M,H,2
+Health and Safety Team add new employee to Noggin,N,G,2
